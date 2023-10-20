@@ -14,7 +14,7 @@
 	 Will hopefully be easier to read.
 */
 .text-black {
-	color: black;
+	color: rgb(251, 249, 249);
 }
 
 .text-small {
@@ -82,7 +82,7 @@ a.text-blue:visited {
   border-bottom: 1px solid currentColor;
 }
 a.text-white-link:visited {
-  color: white;
+  color: rgb(235, 134, 10);
   border-bottom: 1px solid currentColor;
 }
 
@@ -93,7 +93,7 @@ a.text-blue:hover {
   text-decoration: none;
 }
 a.text-white-link:hover {
-  color: blue;
+  color: rgb(249, 247, 243);
   border-bottom: 1px solid currentColor;
   text-decoration: none;
 }
@@ -104,7 +104,7 @@ a.text-blue:active {
   border-bottom: 1px solid currentColor;
 }
 a.text-white-link:active {
-  color: white;
+  color: rgb(243, 138, 9);
   border-bottom: 1px solid currentColor;
 }
 
@@ -202,4 +202,13 @@ hr.black {
 .RlRed {
 	color: #E61231 !important;
 	font-weight: bold;
+}
+img{
+  border-radius: 50%;
+  width: 50%;
+  height: auto;
+}
+.text-faded{
+  margin: 20px;
+
 }

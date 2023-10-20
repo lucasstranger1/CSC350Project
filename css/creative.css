@@ -546,7 +546,7 @@ pre code {
 .container-lg,
 .container-md,
 .container-sm {
-  width: 100%;
+  width:100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -576,8 +576,8 @@ pre code {
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .no-gutters {
@@ -598,8 +598,8 @@ pre code {
 .col-auto, .col-12, .col-11, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1 {
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 20px;
+  padding-left: 30px;
 }
 
 .col {
@@ -634,7 +634,7 @@ pre code {
 }
 
 .row-cols-6 > * {
-  flex: 0 0 16.6666666667%;
+  flex: 0 0 12.6666666667%;
   max-width: 16.6666666667%;
 }
 
@@ -4017,7 +4017,7 @@ input[type=button].btn-block {
   border-radius: 0.25rem;
 }
 .navbar-toggler:hover, .navbar-toggler:focus {
-  text-decoration: none;
+  text-decoration:none;
 }
 
 .navbar-toggler-icon {
@@ -6073,7 +6073,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #f4623a !important;
+  background-color: #fff!important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9771,7 +9771,7 @@ button.bg-dark:focus {
 }
 
 .text-white {
-  color: #fff !important;
+  color: #000 !important;
 }
 
 .text-primary {
